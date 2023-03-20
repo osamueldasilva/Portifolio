@@ -1,0 +1,157 @@
+@media (max-width: 768px) {
+
+  h1,
+  h3,
+  p,
+  a,
+  .text_sobre_mim {
+    font-family: 'Karla', sans-serif;
+
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  a {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+    ;
+  }
+
+  /*---------------SEÇÃO 1---------------*/
+  #section_1 {
+    text-align: center;
+  }
+
+  #section_1_card {
+    width: 700px; 
+  
+  }
+
+  /*---------------END SEÇÃO 1---------------*/
+
+  /*---------------SEÇÃO 2---------------*/
+  .text_sobre_mim {
+    font-size: 20px;
+    width: 100%;
+  }
+
+
+  /*--------------- END SEÇÃO 2---------------*/
+
+  /*---------------SEÇÃO 3---------------*/
+
+  #section_3 {
+    height: auto;
+    padding: 50px 0;
+
+  }
+
+  #section_3_content {
+    flex-wrap: wrap;
+  }
+
+  #section_3_card {
+    height: auto;
+    width: 350px;
+    animation: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+
+  #section_3_card {
+    transition: transform 0.5s;
+  }
+
+  #section_3_card:hover {
+    transform: none;
+  }
+
+  /*---------------END SEÇÃO 3---------------*/
+
+  /*---------------SEÇÃO 4---------------*/
+  .img_content {
+    height: 50px;
+    width: 50px;
+  }
+
+  #section_4_content {
+    width: 100%;
+  }
+
+  #section_4_card {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+  }
+
+
+  /*---------------END SEÇÃO 4---------------*/
+/*----------------------FORMULARIO-----------*/
+
+form {
+ width: 80%;
+
+}
+/*----------------------END FORMULARIo------------*/
+
+
+
+
+  /*--------FOOTER----------------*/
+   
+  
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .footer-distributed .footer-center i {
+      margin-left: 0;
+    }
+  }
+
+  /*----------------END FOOTER----------*/
+  
+
+
+
+@media (max-width: 1200px) {
+  #section_1_card {
+    width: 600px;
+  }
+}
+
+@media (max-width: 992px) {
+  #section_1_card {
+    width: 500px;
+  }
+}
+
+
+
+
+@media (max-width: 1200px) {
+  #section_3_card {
+    width: 250px;
+
+  }
+}
